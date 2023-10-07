@@ -17,12 +17,12 @@ class ProductFactory extends Factory
      */
     public function definition()
     {
-        $name = $this->faker->unique()->colorName;
+        $name = $this->faker->name;
         return [
             "name" =>$name,
             "slug" => Str::slug($name),
             "price" => random_int(200,2000),
-            "thumbnail"=>"/images/cars/product-".random_int(1,12).".jpg",
+            "thumbnail"=>"/images/cars/product-".random_int(1,4).".jpg",
             "description"=>$this->faker->text(500),
             "qty"=>random_int(2,50),
             "category_id"=>random_int(1,10),
@@ -30,7 +30,7 @@ class ProductFactory extends Factory
             "fuel_style"=>value("Hybird"),
             "car_year"=>random_int(2010,2023),
             "mileage"=>random_int(200,1000),
-            "color"=>$this->faker->colorName,
+            "color"=>value("blue"),
         ];
     }
 }
