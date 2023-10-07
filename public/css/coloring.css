@@ -262,7 +262,7 @@ a.btn-line.hover,
 .pricing-table.table-featured a.btn-main,
 .page-item.active .page-link,
 .de_pricing-table .d-recommend,
-#contact_form .radio-img input[type="radio"]:checked + label, 
+#contact_form .radio-img input[type="radio"]:checked + label,
 #contact_form .radio-img input[type="checkbox"]:checked + label{
     background: var(--secondary-color);
 }
@@ -313,33 +313,33 @@ header.header-gradient,
 }
 
 .overlay-gradient {
-    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-2-rgb), 0.9) 100%);
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-rgb), 0.9) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-rgb), 0.9) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.9) 0%, rgba(var(--primary-color-rgb), 0.9) 100%);
 }
 
 .overlay-gradient.t80 {
-    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-2-rgb), 0.8) 100%);
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-rgb), 0.8) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-rgb), 0.8) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.8) 0%, rgba(var(--primary-color-rgb), 0.8) 100%);
 }
 
 .overlay-gradient.t70 {
-    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-2-rgb), 0.7) 100%);
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-rgb), 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-rgb), 0.7) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.7) 0%, rgba(var(--primary-color-rgb), 0.7) 100%);
 }
 
 .overlay-gradient.t60 {
-    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-2-rgb), 0.6) 100%);
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-rgb), 0.6) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-rgb), 0.6) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.6) 0%, rgba(var(--primary-color-rgb), 0.6) 100%);
 }
 
 .overlay-gradient.t50 {
-    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-2-rgb), 0.5) 100%);
+    background: -moz-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-rgb), 0.5) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-rgb), 0.5) 100%);
+    background: linear-gradient(45deg, rgba(var(--primary-color-rgb), 0.5) 0%, rgba(var(--primary-color-rgb), 0.5) 100%);
 }
 
 .all-timelines::before {
@@ -361,7 +361,7 @@ header.header-gradient,
 .item_info_counts>div,
 .de_table .tr .td:nth-child(2) span,
 .activity-filter i,
-.accordion-button:not(.collapsed), {
+.accordion-button:not(.collapsed) {
     background: rgba(var(--secondary-color-rgb), .1);
 }
 
